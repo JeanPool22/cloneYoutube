@@ -20,7 +20,7 @@ header {
 }
 
 header .header__container--one {
-  width: 225;
+  width: 225px;
   height: 45px;
   display: flex;
   align-items: center;
@@ -46,12 +46,96 @@ header .header__container--one {
 }
 
 header .header__container--two {
-  width: 690px;
+  width: 670px;
   height: 45px;
   display: flex;
   align-items: center;
 }
 
 .header__container--two .container__input--search {
-  width: 665px;
+  display: flex;
+  width: 643px;
+  height: 32px;
+}
+
+.container__input--search input {
+  width: 577px;
+  height: 32px;
+  border: 1px solid #303030;
+  background-color: #121212;
+  padding-left: 10px;
+  font-family: 'Roboto' sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.container__input--search button {
+  width: 63px;
+  height: 32px;
+  border: none;
+  background-color: #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__input--search button span {
+  width: 20px;
+  height: 20px;
+  background-image: url("./img/botonBusqueda.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__container--two .container__span--search {
+  width: 25px;
+  height: 25px;
+  margin-left: 13px;
+  background-image: url("./img/microphone.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header .header__container--three {
+  width: 230px;
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__container--three .container__span--camera {
+  width: 25px;
+  height: 25px;
+  background-image: url("./img/cameraVideo.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__container--three .container__span--apps {
+  width: 25px;
+  height: 25px;
+  background-image: url("./img/appsYoutube.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__container--three .container__span--notification {
+  width: 25px;
+  height: 25px;
+  background-image: url("./img/notificaciones.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__container--three .container__img--image {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
 }
